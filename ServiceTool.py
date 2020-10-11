@@ -4,7 +4,8 @@ import os
 import time
 import curses
 
-PATH = "/home/h4lf4r0b0t/DIANA/services"
+#Execute with superuser privileges
+PATH = "/absolute/path/to/file"  #CHANGE THIS BEFORE EXECUTING!
 
 services = open(PATH+"/services.txt", "r").read().split()
 
